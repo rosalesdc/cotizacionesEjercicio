@@ -7,13 +7,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--código que incluye Bootstrap-->
         <?php include'inc/incluye_bootstrap.php' ?>
-        <!--termina código que incluye Bootstrap-->
+
 
     </head>
     <body>
         <!--código que incluye el menú responsivo-->
         <?php include'inc/incluye_menu.php' ?>
-        <!--termina código que incluye el menú responsivo-->
+       
         <div class="container">
             <div class="jumbotron">
                 <h1>Registrar un Proveedor</h1>
@@ -22,7 +22,7 @@
                       action="proveedor_guardar.php">
                     
                     <div class="h2">
-                        DATOS DEL PROVEEDOR
+                        DATOS DEL PROVEEDOR QUE SE VA A REGISTRAR
                     </div>
                     <div class="form-group">
                         <label for="nombre_del_proveedor">Nombre del Proveedor (requerido)</label>
